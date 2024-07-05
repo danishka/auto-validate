@@ -25,6 +25,12 @@
             <artifactId>nd4j-common</artifactId>
             <version>1.0.0-beta2</version>
         </dependency>
+        <!-- Add a dependency with a known vulnerability -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+            <version>4.3.0.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <build>
